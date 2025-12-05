@@ -18,7 +18,7 @@ commonAnnotations:
 
 # Centralized image management
 images:
-  - name: piyushsachdeva/frontend
+  - name: santhosh-prakash/frontend
     newTag: v1
   - name: piyushsachdeva/backend
     newTag: latest
@@ -33,3 +33,4 @@ replicas:
     count: 2
   - name: postgres
     count: 1
+
