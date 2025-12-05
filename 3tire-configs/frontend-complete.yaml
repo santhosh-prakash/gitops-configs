@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: piyushsachdeva/frontend # Tag managed by kustomization.yaml
+          image: santhosh-prakash/frontend # Tag managed by kustomization.yaml
           ports:
             - containerPort: 3000
           env:
@@ -73,3 +73,4 @@ spec:
       protocol: TCP
   selector:
     app: frontend
+
